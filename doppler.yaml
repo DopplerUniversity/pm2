@@ -1,0 +1,3 @@
+setup:
+  project: pm2
+  config: dev

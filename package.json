@@ -1,0 +1,20 @@
+{
+  "name": "doppler-pm2",
+  "version": "1.0.0",
+  "description": "Doppler PM2 testing",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "tsc && node dist/server.js",
+    "pm2-start-node": "pm2 start bin/doppler-run.js",
+    "pm2-start-bash": "pm2 start bin/doppler-run.sh",
+    "pm2-delete": "pm2 delete doppler-run"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}

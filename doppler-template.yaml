@@ -8,5 +8,7 @@ projects:
           - slug: 'dev'
     secrets:
       dev:
-        SECRET_1: '123'
-        SECRET_2: 'abc'
+        HOSTNAME: 'localhost'
+        PORT: '8080'
+        API_KEY: '83768C3B-816A-4F7D-B605-D547DF388119'
+        AUTH_TOKEN: '7D3653DC-C26F-4955-9BAD-C43BC93341EF'

@@ -1,6 +1,0 @@
-{
-    "watch": ["src"],
-    "ext": ".ts",
-    "ignore": [],
-    "exec": "doppler run -- node --loader ts-node/esm  ./src/server.ts"
-}

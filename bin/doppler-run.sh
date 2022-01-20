@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-doppler run -- npm start
+doppler run -- node src/app-env-vars.js
